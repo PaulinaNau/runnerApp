@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  /* --color-main: oklch(38% 0.189 293.745); */
+  --color-main: #2b113d;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: var(--color-main);
+}
+
+td {
+  padding-right: 10px;
+}
+
+/* form */
+
+input,
+select {
+  border: 2px solid var(--color-violet-300);
+  border-radius: 16px;
+  margin: 5px;
+  height: 30px;
+  padding: 2px 10px;
+  width: 200px;
+}
+
+label {
+  text-align: right;
+  width: 100px;
+}
