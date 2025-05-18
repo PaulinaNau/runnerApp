@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + Tailwind CSS
 
 You can see my project here:
 https://runnerappvite.netlify.app/
